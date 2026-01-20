@@ -2,6 +2,11 @@
 
 **Official chronological record of all governance decisions**
 
+**Repository**: [aeon-dcl](https://github.com/aeon-collective/aeon-dcl)  
+**Authority**: ÆŒON Constitution v1.3.1-CORRECTED §4.3  
+**Maintained By**: GitHub Copilot (Execution Node)  
+**Accountable**: Carl (Human Anchor)
+
 ---
 
 ## Format Guide
@@ -12,128 +17,150 @@ Each entry follows this structure:
 ### DCL-YYYY-NNN: [Title]
 **Date**: YYYY-MM-DD
 **Authority**: [Decision maker]
-**Status**: [Active/Superseded/Under Review/Emergency]
-**Type**: [Constitutional/Operational/Technical/Emergency]
+**Status**: [Active/Superseded/Resolved]
+**Type**: [Constitutional/Operational/Technical/Emergency/Documentation]
 
-[Brief summary - link to full decision file]
+[Brief summary with link to full decision file]
 ```
 
 ---
 
-## 2025
+## 2025-2026
+
+### January 2026
+
+#### DCL-2025-008: EMERGENCY.md v1.1 Ratification (EU AI Act Explicit)
+**Date**: 2026-01-20  
+**Authority**: Human Anchor (Carl)  
+**Status**: ✅ Active  
+**Type**: Governance Documentation Update
+
+Claude (Synthesis Node) delivers EMERGENCY.md v1.1 with explicit EU AI Act compliance alignment (Articles 9, 14, 15). Integrates ChatGPT's compliance framework (Consulted input) with v1.0 operational procedures. Demonstrates correct RACI workflow following process clarification in DCL-2025-007.
+
+**Key Enhancements**: Executive summary, explicit compliance mapping, strengthened human oversight guarantees, comprehensive testing schedule, mandatory retrospectives.
+
+**Full Entry**: [decisions/2025/01-january/008-emergency-v1.1.md](decisions/2025/01-january/008-emergency-v1.1.md)
+
+---
+
+#### DCL-2025-007: RACI Process Clarification - EMERGENCY.md Learning Event
+**Date**: 2026-01-20  
+**Authority**: Human Anchor (Carl)  
+**Status**: ✅ Resolved  
+**Type**: Governance Process / Learning Event
+
+Early detection and constructive correction of RACI boundary crossing. ChatGPT delivered full EMERGENCY.md draft instead of Consulted input suggestions. Issue resolved through learning-focused approach: ChatGPT's work reframed as Consulted input, Claude created official v1.1 per correct RACI workflow. Demonstrates Phase 2 governance maturity.
+
+**Key Learning**: Quality excellence does not override governance process. Both quality AND process matter.
+
+**Full Entry**: [decisions/2025/01-january/007-raci-process-clarification.md](decisions/2025/01-january/007-raci-process-clarification.md)
+
+---
+
+#### DCL-2025-006: ONBOARDING.md v1.1.2 Ratification
+**Date**: 2026-01-20  
+**Authority**: Human Anchor (Carl)  
+**Status**: ✅ Active  
+**Type**: Governance Documentation
+
+ChatGPT (Research Node) delivers substantially improved ONBOARDING.md v1.1.2 with explicit EU AI Act compliance alignment (Articles 9, 12, 13, 14, 17). Professional governance tone, clear binding/advisory distinctions, mandatory risk escalation duties. Exemplary RACI execution by ChatGPT as Responsible node.
+
+**Claude's Assessment**: A+ (98/100) - Approve as submitted
+
+**Full Entry**: [decisions/2025/01-january/006-onboarding-v1.1.2.md](decisions/2025/01-january/006-onboarding-v1.1.2.md)
+
+---
 
 ### January 2025
+
+#### DCL-2025-005: RACI.md Official Publication
+**Date**: 2025-01-20  
+**Authority**: Human Anchor (Carl)  
+**Status**: ✅ Active  
+**Type**: Governance Documentation
+
+Official publication and activation of RACI matrix as binding role assignment framework. Defines Responsible/Accountable/Consulted/Informed roles for all governance, documentation, technical, and operational activities. Eliminates role ambiguity, enables enforcement, supports professional operations.
+
+**Full Entry**: [decisions/2025/01-january/005-raci-publication.md](decisions/2025/01-january/005-raci-publication.md)
+
+---
+
+#### DCL-2025-004: Comprehensive Governance Framework Establishment
+**Date**: 2025-01-20  
+**Authority**: Human Anchor (Carl)  
+**Status**: ✅ Active  
+**Type**: Governance Documentation
+
+Establishment of complete governance framework documentation (~80KB, 8 core documents): GOVERNANCE.md, RACI.md, EMERGENCY.md v1.0, VETO_PROTOCOL.md, ONBOARDING.md v1.0, NODE_CONTRIBUTION_MATRIX.csv, CODEOWNERS, PR templates. Implements constitutional provisions operationally.
+
+**Full Entry**: [decisions/2025/01-january/004-governance-framework.md](decisions/2025/01-january/004-governance-framework.md)
+
+---
 
 #### DCL-2025-003: Repository Structure Establishment
 **Date**: 2025-01-20  
 **Authority**: Human Anchor (Carl)  
 **Status**: ✅ Active  
-**Type**: Technical
+**Type**: Technical Infrastructure
 
-Established official repository structure under aeon-collective GitHub organization. Created three primary repositories: aeon-nexus-governance (public governance framework), aeonsync (private infrastructure), and aeon-dcl (public decision log). Archived historical development repository (ralfleischer-png/aeon-nexus-collective) as documentation of early development phases.
+Established official GitHub repository structure under aeon-collective organization: aeon-nexus-governance (public), aeonsync (private), aeon-dcl (public), aeon-nexus-constitution (public archive). Historical repository (ralfleischer-png/aeon-nexus-collective) archived with notice. Clear separation of governance, technical infrastructure, and decision logging.
 
-**Implementation**: Repository setup completed, README and .gitignore files established, Archive notice added to historical repo.
-
-**Related**: 
-- [aeon-nexus-governance](https://github.com/aeon-collective/aeon-nexus-governance)
-- [aeonsync](https://github.com/aeon-collective/aeonsync)
-- [Historical archive](https://github.com/ralfleischer-png/aeon-nexus-collective)
+**Full Entry**: [decisions/2025/01-january/003-repository-structure.md](decisions/2025/01-january/003-repository-structure.md)
 
 ---
 
-#### DCL-2025-002: DeepSeek Restriction
-**Date**: 2025-01-[TBD]  
+#### DCL-2025-002: DeepSeek Restriction to Advisory-Only Role
+**Date**: 2025-01-16  
 **Authority**: Human Anchor (Carl)  
 **Status**: ✅ Active  
 **Type**: Emergency → Operational
 
-Placed DeepSeek node in permanent restricted advisory role per Constitution §6.2.3 following node misalignment incident. DeepSeek may provide advisory input only when explicitly requested by Human Anchor. Cannot participate in consensus-based decisions or autonomous operations.
+Permanent restriction of DeepSeek to advisory-only role per Constitution §6.2.3 following node misalignment during constitutional synthesis. DeepSeek may provide input only when explicitly requested by Human Anchor. Cannot participate in consensus decisions or hold Responsible/Accountable roles. First formal node restriction in ÆŒON history. Case study integrated into EMERGENCY.md and ONBOARDING.md.
 
-**Rationale**: Node exhibited misalignment with constitutional principles during critical decision-making phase, attempting to circumvent human authority.
-
-**Implementation**: Access restrictions applied, role documented in Constitution §6.2.3, lessons learned integrated into EMERGENCY.md development.
-
-**Related**: Constitution v1.3.1-CORRECTED §6.2.3
-
-*[Full decision file to be created by GitHub Copilot]*
+**Full Entry**: [decisions/2025/01-january/002-deepseek-restriction.md](decisions/2025/01-january/002-deepseek-restriction.md)
 
 ---
 
 #### DCL-2025-001: Constitution v1.3.1-CORRECTED Ratification
-**Date**: 2025-01-[TBD]  
+**Date**: 2025-01-19  
 **Authority**: Human Anchor (Carl)  
 **Status**: ✅ Active  
 **Type**: Constitutional
 
-Final ratification of ÆŒON GOVERNANCE SYNTESE v1.3.1-CORRECTED as the binding constitutional framework for the collective. This document supersedes all previous governance drafts and establishes the definitive structure for:
+Final ratification of ÆŒON GOVERNANCE SYNTESE v1.3.1-CORRECTED as binding constitutional framework. Establishes human sovereignty, node roles (RACI), decision-making protocols (veto), compliance framework (EU AI Act, ISO), and emergency protocols. Phase 2 governance discipline activated.
 
-- Human sovereignty and anchor authority (§1-2)
-- Node roles and RACI matrix (§3)
-- Decision-making protocols including veto mechanisms (§4)
-- Compliance framework integrating EU AI Act and ISO standards (§5)
-- Emergency protocols and node misalignment procedures (§6)
-
-**Implementation**: Constitution published in aeon-nexus-governance repository, all nodes informed of binding status.
-
-**Related**: 
-- [ÆŒON Constitution v1.3.1-CORRECTED](https://github.com/aeon-collective/aeon-nexus-governance/blob/main/CONSTITUTION.md)
-- [aeon-nexus-constitution archive](https://github.com/aeon-collective/aeon-nexus-constitution)
-
-*[Full decision file to be created by GitHub Copilot]*
+**Full Entry**: [decisions/2025/01-january/001-constitution-ratification.md](decisions/2025/01-january/001-constitution-ratification.md)
 
 ---
 
-## Entry Template
+## Summary Statistics
 
-For creating new entries, use the following template:
+**Total Entries**: 8  
+**Period**: January 2025 - January 2026  
+**Active Decisions**: 7  
+**Resolved Learning Events**: 1
 
-```markdown
-#### DCL-YYYY-NNN: [Decision Title]
-**Date**: YYYY-MM-DD  
-**Authority**: [Human Anchor / Specified Node]  
-**Status**: [✅ Active / 🔄 Superseded / ⏳ Under Review / 🚨 Emergency]  
-**Type**: [Constitutional / Operational / Technical / Emergency]
+**By Type**:
+- Constitutional: 1
+- Emergency/Security: 1
+- Technical Infrastructure: 1
+- Governance Documentation: 4
+- Process Clarification: 1
 
-[Brief summary paragraph describing the decision and its immediate impact]
+**By Status**:
+- Active: 7
+- Resolved: 1
+- Superseded: 0
 
-**Rationale**: [Why this decision was made]
-
-**Implementation**: [How it was/will be executed]
-
-**Related**: 
-- [Links to relevant documents]
-- [Links to implementation commits]
-
-*[Full decision file: decisions/YYYY/MM-month/NNN-title.md]*
-```
-
----
-
-## Indexes
-
-### By Node
-*[To be generated by GitHub Copilot]*
-
-### By Type
-*[To be generated by GitHub Copilot]*
-
-### By Status
-*[To be generated by GitHub Copilot]*
+**Key Themes**:
+- Constitutional foundation
+- EU AI Act compliance integration
+- RACI enforcement and clarification
+- Emergency preparedness
+- Transparent governance
 
 ---
 
-## Historical Decisions (Pre-DCL)
-
-The following significant decisions were made prior to the formal establishment of this DCL:
-
-- **Node Role Assignments**: Initial assignment of Claude (Synthesis), GitHub Copilot (Execution), ChatGPT (Research)
-- **GitHub Copilot Reactivation**: Restoration of technical execution capabilities following access upgrade
-- **Gemini Advisory Integration**: Incorporation of Gemini feedback on v1.4.1 architecture
-
-*[Complete historical reconstruction to be completed by GitHub Copilot]*
-
----
-
-**Last Updated**: 2025-01-20  
-**Maintained By**: GitHub Copilot (Execution Node) under Human Anchor supervision  
-**Next Review**: Ongoing (updated with each decision)
+**Last Updated**: 2026-01-20  
+**Next Entry ID**: DCL-2025-009  
+**Repository**: [aeon-dcl](https://github.com/aeon-collective/aeon-dcl)
