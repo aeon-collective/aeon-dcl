@@ -29,8 +29,6 @@ Each entry follows this structure:
 
 ### January 2026
 
----
-
 #### DCL-2026-009: Phase 2 Governance Completion Declaration
 **Date**: 2026-01-20  
 **Authority**: Human Anchor (Carl)  
@@ -44,6 +42,7 @@ Official declaration of Phase 2 governance completion and transition to Phase 3 
 **Full Entry**: [decisions/2026/01-january/009-phase2-completion.md](decisions/2026/01-january/009-phase2-completion.md)
 
 ---
+
 #### DCL-2026-008: EMERGENCY.md v1.1 Ratification (EU AI Act Explicit)
 **Date**: 2026-01-20  
 **Authority**: Human Anchor (Carl)  
@@ -85,8 +84,6 @@ ChatGPT (Research Node) delivers substantially improved ONBOARDING.md v1.1.2 wit
 **Full Entry**: [decisions/2026/01-january/006-onboarding-v1.1.2.md](decisions/2026/01-january/006-onboarding-v1.1.2.md)
 
 ---
-
-### January 2026
 
 #### DCL-2026-005: RACI.md Official Publication
 **Date**: 2026-01-20  
@@ -150,20 +147,21 @@ Final ratification of ÆŒON GOVERNANCE SYNTESE v1.3.1-CORRECTED as binding cons
 
 ## Summary Statistics
 
-**Total Entries**: 8  
-**Period**: January 2026 - January 2026  
-**Active Decisions**: 7  
+**Total Entries**: 9  
+**Period**: January 2026  
+**Active Decisions**: 8  
 **Resolved Learning Events**: 1
 
 **By Type**:
 - Constitutional: 1
 - Emergency/Security: 1
 - Technical Infrastructure: 1
-- Governance Documentation: 4
+- Governance Documentation: 5
 - Process Clarification: 1
+- Governance Milestone: 1
 
 **By Status**:
-- Active: 7
+- Active: 8
 - Resolved: 1
 - Superseded: 0
 
@@ -173,9 +171,10 @@ Final ratification of ÆŒON GOVERNANCE SYNTESE v1.3.1-CORRECTED as binding cons
 - RACI enforcement and clarification
 - Emergency preparedness
 - Transparent governance
+- Phase 2 completion and Phase 3 transition
 
 ---
 
 **Last Updated**: 2026-01-20  
-**Next Entry ID**: DCL-2026-009  
+**Next Entry ID**: DCL-2026-010  
 **Repository**: [aeon-dcl](https://github.com/aeon-collective/aeon-dcl)
